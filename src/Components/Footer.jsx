@@ -10,7 +10,7 @@ const Footer = ({ theme }) => {
       />
 
       <footer
-        className={`footer_area navbar fixed-bottom bg-body-tertiary`}
+        className={`footer_area navbar footer_visible bg-body-tertiary`}
         data-bs-theme={theme === 'dark' ? 'dark' : undefined}
       >
         <div className="container">
@@ -107,20 +107,12 @@ const Footer = ({ theme }) => {
                 <div className="footer_menu">
                   <ul>
                     <li>
-                      <a
-                        href="https://www.cmx.bg/page/4/kak-da-poracham-onlayn"
-                     
-                      >
+                      <a href="https://www.cmx.bg/page/4/kak-da-poracham-onlayn">
                         Как да поръчам онлайн?
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="https://www.cmx.bg/page/5/dostavka"
-                       
-                      >
-                        Доставка
-                      </a>
+                      <a href="https://www.cmx.bg/page/5/dostavka">Доставка</a>
                     </li>
                   </ul>
                 </div>
