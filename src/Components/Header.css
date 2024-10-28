@@ -1,0 +1,10 @@
+.offcanvas-body ul {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 6px; 
+}
+
+.offcanvas-body .nav-item {
+  width: 120%;
+}
