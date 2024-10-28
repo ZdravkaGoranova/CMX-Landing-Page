@@ -1,8 +1,9 @@
+import ListProducts from './ListProducts.jsx';
 import './Main.css';
 const Main = () => {
   return (
     <>
-     
+     <ListProducts></ListProducts>
     </>
   );
 };

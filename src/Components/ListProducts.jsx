@@ -2,186 +2,6 @@ import './ListProducts.css';
 const ListProducts = () => {
   return (
     <>
-      {/* <link
-        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
-        rel="stylesheet"
-      />
-      <div className="container">
-        <div className="row bootstrap snippets bootdeys">
-          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div className="card">
-              <div className="thumbnail">
-                <img
-                  width="360"
-                  height="270"
-                  src="320_41.webp"
-                  alt="thumbnail"
-                />
-                <a href="#" className="thumb-cover"></a>
-                <div className="details">
-                  <div className="authors-container">
-                    <div className="author">
-                      <a className="card-user account-photo  account-product-owner">
-                        <div className="mask">
-                          <img
-                            className="photo"
-                            src="320_39184.webp"
-                            alt="Thumb"
-                          />
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                  <div className="numbers">
-                    <b className="downloads">
-                      <i className="fa fa-arrow-circle-o-down"></i> 3,461
-                    </b>
-                    <b className="comments-icon">
-                      <i className="fa fa-comment"></i> 42
-                    </b>
-                  </div>
-                  <div className="clearfix"></div>
-                </div>
-                <b className="actions">
-                  <a className="btn btn-neutral btn-round btn-fill" href="#">
-                    More Details
-                  </a>
-                  <a className="btn btn-neutral btn-round" href="#">
-                    Live Preview
-                  </a>
-                </b>
-              </div>
-              <div className="card-info">
-                <a href="#">
-                  <h3>
-                    Product 1<div className="time pull-right">Free</div>
-                  </h3>
-                  <div className="circle-red">
-                    <i className="fa fa-circle-o"></i>
-                  </div>
-                  <p>Smaill description</p>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div className="card">
-              <div className="thumbnail">
-                <img
-                  width="360"
-                  height="270"
-                  src="https://www.bootdey.com/image/350x260/008080/000000"
-                  alt="thumbnail"
-                />
-                <a href="#" className="thumb-cover"></a>
-                <div className="details">
-                  <div className="authors-container">
-                    <div className="author">
-                      <a className="card-user account-photo  account-product-owner">
-                        <div className="mask">
-                          <img
-                            className="photo"
-                            src="https://bootdey.com/img/Content/avatar/avatar2.png"
-                            alt="Thumb"
-                          />
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                  <div className="numbers">
-                    <b className="downloads">
-                      <i className="fa fa-arrow-circle-o-down"></i> 162
-                    </b>
-                    <b className="comments-icon">
-                      <i className="fa fa-comment"></i> 23
-                    </b>
-                  </div>
-                  <div className="clearfix"></div>
-                </div>
-                <b className="actions">
-                  <a className="btn btn-neutral btn-round btn-fill" href="#">
-                    More Details
-                  </a>
-                  <a className="btn btn-neutral btn-round" href="#">
-                    Live Preview
-                  </a>
-                </b>
-              </div>
-              <div className="card-info">
-                <a href="#">
-                  <h3>
-                    Product 2<div className="time pull-right">$19</div>
-                  </h3>
-                  <div className="circle-blue">
-                    <i className="fa fa-circle-o"></i>
-                  </div>
-                  <p>Small description</p>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div className="card">
-              <div className="thumbnail">
-                <img
-                  width="360"
-                  height="270"
-                  src="https://www.bootdey.com/image/350x260/4682B4/000000"
-                  alt="thumbnail"
-                />
-                <a href="#" className="thumb-cover"></a>
-                <div className="details">
-                  <div className="authors-container">
-                    <div className="author">
-                      <a className="card-user account-photo  account-product-owner">
-                        <div className="mask">
-                          <img
-                            className="photo"
-                            src="https://bootdey.com/img/Content/avatar/avatar3.png"
-                            alt="Thumb"
-                          />
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                  <div className="numbers">
-                    <b className="downloads">
-                      <i className="fa fa-arrow-circle-o-down"></i> 621
-                    </b>
-                    <b className="comments-icon">
-                      <i className="fa fa-comment"></i> 27
-                    </b>
-                  </div>
-                  <div className="clearfix"></div>
-                </div>
-                <b className="actions">
-                  <a className="btn btn-neutral btn-round btn-fill" href="#">
-                    More Details
-                  </a>
-                  <a className="btn btn-neutral btn-round" href="#">
-                    Live Preview
-                  </a>
-                </b>
-              </div>
-              <div className="card-info">
-                <a href="#">
-                  <h3>
-                    Product 3<div className="time pull-right">$39</div>
-                  </h3>
-                  <div className="circle-red">
-                    <i className="fa fa-circle-o"></i>
-                  </div>
-                  <p>Small description</p>
-                </a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div> */}
-
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -510,3 +330,185 @@ const ListProducts = () => {
 };
 
 export default ListProducts;
+
+{
+  /* <link
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+        rel="stylesheet"
+      />
+      <div className="container">
+        <div className="row bootstrap snippets bootdeys">
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div className="card">
+              <div className="thumbnail">
+                <img
+                  width="360"
+                  height="270"
+                  src="320_41.webp"
+                  alt="thumbnail"
+                />
+                <a href="#" className="thumb-cover"></a>
+                <div className="details">
+                  <div className="authors-container">
+                    <div className="author">
+                      <a className="card-user account-photo  account-product-owner">
+                        <div className="mask">
+                          <img
+                            className="photo"
+                            src="320_39184.webp"
+                            alt="Thumb"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="numbers">
+                    <b className="downloads">
+                      <i className="fa fa-arrow-circle-o-down"></i> 3,461
+                    </b>
+                    <b className="comments-icon">
+                      <i className="fa fa-comment"></i> 42
+                    </b>
+                  </div>
+                  <div className="clearfix"></div>
+                </div>
+                <b className="actions">
+                  <a className="btn btn-neutral btn-round btn-fill" href="#">
+                    More Details
+                  </a>
+                  <a className="btn btn-neutral btn-round" href="#">
+                    Live Preview
+                  </a>
+                </b>
+              </div>
+              <div className="card-info">
+                <a href="#">
+                  <h3>
+                    Product 1<div className="time pull-right">Free</div>
+                  </h3>
+                  <div className="circle-red">
+                    <i className="fa fa-circle-o"></i>
+                  </div>
+                  <p>Smaill description</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div className="card">
+              <div className="thumbnail">
+                <img
+                  width="360"
+                  height="270"
+                  src="https://www.bootdey.com/image/350x260/008080/000000"
+                  alt="thumbnail"
+                />
+                <a href="#" className="thumb-cover"></a>
+                <div className="details">
+                  <div className="authors-container">
+                    <div className="author">
+                      <a className="card-user account-photo  account-product-owner">
+                        <div className="mask">
+                          <img
+                            className="photo"
+                            src="https://bootdey.com/img/Content/avatar/avatar2.png"
+                            alt="Thumb"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="numbers">
+                    <b className="downloads">
+                      <i className="fa fa-arrow-circle-o-down"></i> 162
+                    </b>
+                    <b className="comments-icon">
+                      <i className="fa fa-comment"></i> 23
+                    </b>
+                  </div>
+                  <div className="clearfix"></div>
+                </div>
+                <b className="actions">
+                  <a className="btn btn-neutral btn-round btn-fill" href="#">
+                    More Details
+                  </a>
+                  <a className="btn btn-neutral btn-round" href="#">
+                    Live Preview
+                  </a>
+                </b>
+              </div>
+              <div className="card-info">
+                <a href="#">
+                  <h3>
+                    Product 2<div className="time pull-right">$19</div>
+                  </h3>
+                  <div className="circle-blue">
+                    <i className="fa fa-circle-o"></i>
+                  </div>
+                  <p>Small description</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div className="card">
+              <div className="thumbnail">
+                <img
+                  width="360"
+                  height="270"
+                  src="https://www.bootdey.com/image/350x260/4682B4/000000"
+                  alt="thumbnail"
+                />
+                <a href="#" className="thumb-cover"></a>
+                <div className="details">
+                  <div className="authors-container">
+                    <div className="author">
+                      <a className="card-user account-photo  account-product-owner">
+                        <div className="mask">
+                          <img
+                            className="photo"
+                            src="https://bootdey.com/img/Content/avatar/avatar3.png"
+                            alt="Thumb"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="numbers">
+                    <b className="downloads">
+                      <i className="fa fa-arrow-circle-o-down"></i> 621
+                    </b>
+                    <b className="comments-icon">
+                      <i className="fa fa-comment"></i> 27
+                    </b>
+                  </div>
+                  <div className="clearfix"></div>
+                </div>
+                <b className="actions">
+                  <a className="btn btn-neutral btn-round btn-fill" href="#">
+                    More Details
+                  </a>
+                  <a className="btn btn-neutral btn-round" href="#">
+                    Live Preview
+                  </a>
+                </b>
+              </div>
+              <div className="card-info">
+                <a href="#">
+                  <h3>
+                    Product 3<div className="time pull-right">$39</div>
+                  </h3>
+                  <div className="circle-red">
+                    <i className="fa fa-circle-o"></i>
+                  </div>
+                  <p>Small description</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div> */
+}
