@@ -1,4 +1,4 @@
-import './';
+import './Footer.css';
 import PropTypes from 'prop-types';
 
 const Footer = ({ theme }) => {
