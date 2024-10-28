@@ -20,7 +20,10 @@ function App() {
       />
 
       <Header theme={theme} toggleTheme={toggleTheme} />
-      <Main></Main>
+      <main>
+        <Main></Main>
+      </main>
+      
       <Footer theme={theme} toggleTheme={toggleTheme} />
     </>
   );

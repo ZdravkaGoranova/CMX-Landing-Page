@@ -73,12 +73,7 @@ const Header = ({ theme, toggleTheme }) => {
                   </figcaption>
                 </figure>
 
-                <button
-                  type="button"
-                  className="btn-close btn-close-white"
-                  data-bs-dismiss="offcanvas"
-                  aria-label="Close"
-                ></button>
+              
               </div>
               <ul className="navbar-nav  flex-grow-1 pe-3">
                 <li className="nav-item">
