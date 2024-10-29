@@ -264,6 +264,7 @@ background:#eee;
 }
 .container-list-product {
     margin-top: 130px;
+    margin-bottom: 60px;
 }
 @media screen and (max-width: 991px) {
     .team-style1 .team-info {

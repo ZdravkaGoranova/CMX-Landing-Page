@@ -1,5 +1,10 @@
 import './ListProducts.css';
-const ListProducts = () => {
+import PropTypes from 'prop-types';
+import Product from './Product.jsx';
+
+const ListProducts = ({ products }) => {
+  console.log(products);
+
   return (
     <>
       <link
@@ -11,325 +16,279 @@ const ListProducts = () => {
       />
       <div className="container-list-product">
         <div className="">
-          <span className="sub-title">Intructions</span>
+          <span className="sub-title">Instructions</span>
           <h2 className="h1 mb-0">Hover the cards</h2>
         </div>
-        <div className="row position-relative ">
-          <div className="col-md-6 col-lg-4 mt-1-9">
-            <div className="team-style1 text-center">
-              <img src="320_44076.webp" className="border-radius-5" alt="..." />
-              <div className="team-info">
-                <h3 className="mb-1 h5 content-title">
-                  Машината за безвъздушно боядисване с латекс STAHL Easy
-                </h3>
-                <div>
-                  <p className="text-decoration-line-through text-primary fs-6 fw-normal">
-                    685.00 лв.
-                  </p>
-
-                  <span className="font-weight-600 text-warning fs-3 fw-bolder">
-                    439.00 лв.
-                  </span>
-                </div>
-              </div>
-              <div className="team-overlay">
-                <div className="d-table h-100 w-100">
-                  <div className="d-table-cell align-middle">
-                    <h3>
-                      <a href="#" className="text-white h5">
-                        Машина за боядисване с латекс 200 бара / 1,5 л/мин. /
-                        1050 W
-                      </a>
-                    </h3>
-                    <p className="text-white mb-0 fst-italic fw-light fs-6">
-                      Paint S1 е идеалният избор за ентусиасти, които търсят
-                      висока ефективност и качество при боядисване на различни
-                      повърхности. ...
-                    </p>
-                    <div className="d-flex justify-content-around">
-                      <a
-                        className="btn btn-outline-light m-3"
-                        href="https://www.cmx.bg/product44076/mashina-za-bezvazdushno-boyadisvane-stahl-easy-paint-s1-15-lmin"
-                        role="button"
-                      >
-                        Научи повече
-                      </a>
-                      <a
-                        className="btn btn-outline-light m-3"
-                        href="https://www.cmx.bg/store/checkout"
-                        role="button"
-                      >
-                        Купи
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4 mt-1-9">
-            <div className="team-style1 text-center">
-              <img src="/320_41.webp" className="border-radius-5" alt="..." />
-              <div className="team-info">
-                <h3 className="mb-1 h5 content-title">
-                  Машина за рязане на плочки 230мм
-                </h3>
-                <div>
-                  <p className="text-decoration-line-through text-primary fs-6 fw-normal">
-                    2 600.00 лв.
-                  </p>
-
-                  <span className="font-weight-600 text-warning fs-3 fw-bolder">
-                    2 220.00 лв.
-                  </span>
-                </div>
-              </div>
-              <div className="team-overlay">
-                <div className="d-table h-100 w-100">
-                  <div className="d-table-cell align-middle">
-                    <h3>
-                      <a href="#" className="text-white h5">
-                        Отрезна маса за плочки CIMEX TC230-1200N/ 1.1 kW
-                      </a>
-                    </h3>
-                    <p className="text-white mb-0 fst-italic fw-light fs-6">
-                      Размер на диска, max 230 мм Централен отвор на диска 25.4
-                      мм Дължина на рязане, max 1200 мм Дълбочина на рязане, max
-                      45 мм Мощност 1.1kW ...
-                    </p>
-                    <div className="d-flex justify-content-around">
-                      <a
-                        className="btn btn-outline-light m-3"
-                        href="https://www.cmx.bg/product45629/otrezna-masa-za-plochki-cimex-tc350-1200n-11-kw"
-                        role="button"
-                      >
-                        Научи повече
-                      </a>
-                      <a
-                        className="btn btn-outline-light m-3"
-                        href="https://www.cmx.bg/store/checkout"
-                        role="button"
-                      >
-                        Купи
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4 mt-1-9">
-            <div className="team-style1 text-center">
-              <img src="320_39184.webp" className="border-radius-5" alt="..." />
-              <div className="team-info">
-                <h3 className="mb-1 h5 content-title">
-                  Моторна косачка 25-80 мм 46 см 65 л
-                </h3>
-                <div>
-                  <p className="text-decoration-line-through text-primary fs-6 fw-normal">
-                    599.00 лв.
-                  </p>
-
-                  <span className="font-weight-600 text-warning fs-3 fw-bolder">
-                    559.00 лв.
-                  </span>
-                </div>
-              </div>
-              <div className="team-overlay">
-                <div className="d-table h-100 w-100">
-                  <div className="d-table-cell align-middle">
-                    <h3>
-                      <a href="#" className="text-white h5">
-                        Отрезна маса за плочки CIMEX TC230-1200N/ 1.1 kW
-                      </a>
-                    </h3>
-                    <p className="text-white mb-0 fst-italic fw-light fs-6">
-                      Моторната косачка е оборудвана е с мощен 4-тактов двигател
-                      и превключваемо задвижване на задните колела. Сгъваемото
-                      кормило спестява място при съхранение. ...
-                    </p>
-                    <div className="d-flex justify-content-around">
-                      <a
-                        className="btn btn-outline-light m-3"
-                        href="https://www.cmx.bg/product39184/benzinova-samohodna-kosachka-einhell-gc-pm-465-s-272-ks"
-                        role="button"
-                      >
-                        Научи повече
-                      </a>
-                      <a
-                        className="btn btn-outline-light m-3"
-                        href="https://www.cmx.bg/store/checkout"
-                        role="button"
-                      >
-                        Купи
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4 mt-1-9">
-            <div className="team-style1 text-center">
-              <img src="320_44076.webp" className="border-radius-5" alt="..." />
-              <div className="team-info">
-                <h3 className="mb-1 h5 content-title">
-                  Машината за безвъздушно боядисване с латекс STAHL Easy
-                </h3>
-                <div>
-                  <p className="text-decoration-line-through text-primary fs-6 fw-normal">
-                    685.00 лв.
-                  </p>
-
-                  <span className="font-weight-600 text-warning fs-3 fw-bolder">
-                    439.00 лв.
-                  </span>
-                </div>
-              </div>
-              <div className="team-overlay">
-                <div className="d-table h-100 w-100">
-                  <div className="d-table-cell align-middle">
-                    <h3>
-                      <a href="#" className="text-white h5">
-                        Машина за боядисване с латекс 200 бара / 1,5 л/мин. /
-                        1050 W
-                      </a>
-                    </h3>
-                    <p className="text-white mb-0 fst-italic fw-light fs-6">
-                      Paint S1 е идеалният избор за ентусиасти, които търсят
-                      висока ефективност и качество при боядисване на различни
-                      повърхности. ...
-                    </p>
-                    <div className="d-flex justify-content-around">
-                      <a
-                        className="btn btn-outline-light m-3"
-                        href="https://www.cmx.bg/product44076/mashina-za-bezvazdushno-boyadisvane-stahl-easy-paint-s1-15-lmin"
-                        role="button"
-                      >
-                        Научи повече
-                      </a>
-                      <a
-                        className="btn btn-outline-light m-3"
-                        href="https://www.cmx.bg/store/checkout"
-                        role="button"
-                      >
-                        Купи
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4 mt-1-9">
-            <div className="team-style1 text-center">
-              <img src="/320_41.webp" className="border-radius-5" alt="..." />
-              <div className="team-info">
-                <h3 className="mb-1 h5 content-title">
-                  Машина за рязане на плочки 230мм
-                </h3>
-                <div>
-                  <p className="text-decoration-line-through text-primary fs-6 fw-normal">
-                    2 600.00 лв.
-                  </p>
-
-                  <span className="font-weight-600 text-warning fs-3 fw-bolder">
-                    2 220.00 лв.
-                  </span>
-                </div>
-              </div>
-              <div className="team-overlay">
-                <div className="d-table h-100 w-100">
-                  <div className="d-table-cell align-middle">
-                    <h3>
-                      <a href="#" className="text-white h5">
-                        Отрезна маса за плочки CIMEX TC230-1200N/ 1.1 kW
-                      </a>
-                    </h3>
-                    <p className="text-white mb-0 fst-italic fw-light fs-6">
-                      Размер на диска, max 230 мм Централен отвор на диска 25.4
-                      мм Дължина на рязане, max 1200 мм Дълбочина на рязане, max
-                      45 мм Мощност 1.1kW ...
-                    </p>
-                    <div className="d-flex justify-content-around">
-                      <a
-                        className="btn btn-outline-light m-3"
-                        href="https://www.cmx.bg/product45629/otrezna-masa-za-plochki-cimex-tc350-1200n-11-kw"
-                        role="button"
-                      >
-                        Научи повече
-                      </a>
-                      <a
-                        className="btn btn-outline-light m-3"
-                        href="https://www.cmx.bg/store/checkout"
-                        role="button"
-                      >
-                        Купи
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4 mt-1-9">
-            <div className="team-style1 text-center">
-              <img src="320_39184.webp" className="border-radius-5" alt="..." />
-              <div className="team-info">
-                <h3 className="mb-1 h5 content-title">
-                  Моторна косачка 25-80 мм 46 см 65 л
-                </h3>
-                <div>
-                  <p className="text-decoration-line-through text-primary fs-6 fw-normal">
-                    599.00 лв.
-                  </p>
-
-                  <span className="font-weight-600 text-warning fs-3 fw-bolder">
-                    559.00 лв.
-                  </span>
-                </div>
-              </div>
-              <div className="team-overlay">
-                <div className="d-table h-100 w-100">
-                  <div className="d-table-cell align-middle">
-                    <h3>
-                      <a href="#" className="text-white h5">
-                        Отрезна маса за плочки CIMEX TC230-1200N/ 1.1 kW
-                      </a>
-                    </h3>
-                    <p className="text-white mb-0 fst-italic fw-light fs-6">
-                      Моторната косачка е оборудвана е с мощен 4-тактов двигател
-                      и превключваемо задвижване на задните колела. Сгъваемото
-                      кормило спестява място при съхранение. ...
-                    </p>
-                    <div className="d-flex justify-content-around">
-                      <a
-                        className="btn btn-outline-light m-3"
-                        href="https://www.cmx.bg/product39184/benzinova-samohodna-kosachka-einhell-gc-pm-465-s-272-ks"
-                        role="button"
-                      >
-                        Научи повече
-                      </a>
-                      <a
-                        className="btn btn-outline-light m-3"
-                        href="https://www.cmx.bg/store/checkout"
-                        role="button"
-                      >
-                        Купи
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Product products={products} />
       </div>
     </>
   );
 };
 
+ListProducts.propTypes = {
+  products: PropTypes.array.isRequired,
+};
+
 export default ListProducts;
+
+{
+  /* <div className="col-md-6 col-lg-4 mt-1-9">
+            <div className="team-style1 text-center">
+              <img src="/320_41.webp" className="border-radius-5" alt="..." />
+              <div className="team-info">
+                <h3 className="mb-1 h5 content-title">
+                  Машина за рязане на плочки 230мм
+                </h3>
+                <div>
+                  <p className="text-decoration-line-through text-primary fs-6 fw-normal">
+                    2 600.00 лв.
+                  </p>
+
+                  <span className="font-weight-600 text-warning fs-3 fw-bolder">
+                    2 220.00 лв.
+                  </span>
+                </div>
+              </div>
+              <div className="team-overlay">
+                <div className="d-table h-100 w-100">
+                  <div className="d-table-cell align-middle">
+                    <h3>
+                      <a href="#" className="text-white h5">
+                        Отрезна маса за плочки CIMEX TC230-1200N/ 1.1 kW
+                      </a>
+                    </h3>
+                    <p className="text-white mb-0 fst-italic fw-light fs-6">
+                      Размер на диска, max 230 мм Централен отвор на диска 25.4
+                      мм Дължина на рязане, max 1200 мм Дълбочина на рязане, max
+                      45 мм Мощност 1.1kW ...
+                    </p>
+                    <div className="d-flex justify-content-around">
+                      <a
+                        className="btn btn-outline-light m-3"
+                        href="https://www.cmx.bg/product45629/otrezna-masa-za-plochki-cimex-tc350-1200n-11-kw"
+                        role="button"
+                      >
+                        Научи повече
+                      </a>
+                      <a
+                        className="btn btn-outline-light m-3"
+                        href="https://www.cmx.bg/store/checkout"
+                        role="button"
+                      >
+                        Купи
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 col-lg-4 mt-1-9">
+            <div className="team-style1 text-center">
+              <img src="320_39184.webp" className="border-radius-5" alt="..." />
+              <div className="team-info">
+                <h3 className="mb-1 h5 content-title">
+                  Моторна косачка 25-80 мм 46 см 65 л
+                </h3>
+                <div>
+                  <p className="text-decoration-line-through text-primary fs-6 fw-normal">
+                    599.00 лв.
+                  </p>
+
+                  <span className="font-weight-600 text-warning fs-3 fw-bolder">
+                    559.00 лв.
+                  </span>
+                </div>
+              </div>
+              <div className="team-overlay">
+                <div className="d-table h-100 w-100">
+                  <div className="d-table-cell align-middle">
+                    <h3>
+                      <a href="#" className="text-white h5">
+                        Отрезна маса за плочки CIMEX TC230-1200N/ 1.1 kW
+                      </a>
+                    </h3>
+                    <p className="text-white mb-0 fst-italic fw-light fs-6">
+                      Моторната косачка е оборудвана е с мощен 4-тактов двигател
+                      и превключваемо задвижване на задните колела. Сгъваемото
+                      кормило спестява място при съхранение. ...
+                    </p>
+                    <div className="d-flex justify-content-around">
+                      <a
+                        className="btn btn-outline-light m-3"
+                        href="https://www.cmx.bg/product39184/benzinova-samohodna-kosachka-einhell-gc-pm-465-s-272-ks"
+                        role="button"
+                      >
+                        Научи повече
+                      </a>
+                      <a
+                        className="btn btn-outline-light m-3"
+                        href="https://www.cmx.bg/store/checkout"
+                        role="button"
+                      >
+                        Купи
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 col-lg-4 mt-1-9">
+            <div className="team-style1 text-center">
+              <img src="320_44076.webp" className="border-radius-5" alt="..." />
+              <div className="team-info">
+                <h3 className="mb-1 h5 content-title">
+                  Машината за безвъздушно боядисване с латекс STAHL Easy
+                </h3>
+                <div>
+                  <p className="text-decoration-line-through text-primary fs-6 fw-normal">
+                    685.00 лв.
+                  </p>
+
+                  <span className="font-weight-600 text-warning fs-3 fw-bolder">
+                    439.00 лв.
+                  </span>
+                </div>
+              </div>
+              <div className="team-overlay">
+                <div className="d-table h-100 w-100">
+                  <div className="d-table-cell align-middle">
+                    <h3>
+                      <a href="#" className="text-white h5">
+                        Машина за боядисване с латекс 200 бара / 1,5 л/мин. /
+                        1050 W
+                      </a>
+                    </h3>
+                    <p className="text-white mb-0 fst-italic fw-light fs-6">
+                      Paint S1 е идеалният избор за ентусиасти, които търсят
+                      висока ефективност и качество при боядисване на различни
+                      повърхности. ...
+                    </p>
+                    <div className="d-flex justify-content-around">
+                      <a
+                        className="btn btn-outline-light m-3"
+                        href="https://www.cmx.bg/product44076/mashina-za-bezvazdushno-boyadisvane-stahl-easy-paint-s1-15-lmin"
+                        role="button"
+                      >
+                        Научи повече
+                      </a>
+                      <a
+                        className="btn btn-outline-light m-3"
+                        href="https://www.cmx.bg/store/checkout"
+                        role="button"
+                      >
+                        Купи
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 col-lg-4 mt-1-9">
+            <div className="team-style1 text-center">
+              <img src="/320_41.webp" className="border-radius-5" alt="..." />
+              <div className="team-info">
+                <h3 className="mb-1 h5 content-title">
+                  Машина за рязане на плочки 230мм
+                </h3>
+                <div>
+                  <p className="text-decoration-line-through text-primary fs-6 fw-normal">
+                    2 600.00 лв.
+                  </p>
+
+                  <span className="font-weight-600 text-warning fs-3 fw-bolder">
+                    2 220.00 лв.
+                  </span>
+                </div>
+              </div>
+              <div className="team-overlay">
+                <div className="d-table h-100 w-100">
+                  <div className="d-table-cell align-middle">
+                    <h3>
+                      <a href="#" className="text-white h5">
+                        Отрезна маса за плочки CIMEX TC230-1200N/ 1.1 kW
+                      </a>
+                    </h3>
+                    <p className="text-white mb-0 fst-italic fw-light fs-6">
+                      Размер на диска, max 230 мм Централен отвор на диска 25.4
+                      мм Дължина на рязане, max 1200 мм Дълбочина на рязане, max
+                      45 мм Мощност 1.1kW ...
+                    </p>
+                    <div className="d-flex justify-content-around">
+                      <a
+                        className="btn btn-outline-light m-3"
+                        href="https://www.cmx.bg/product45629/otrezna-masa-za-plochki-cimex-tc350-1200n-11-kw"
+                        role="button"
+                      >
+                        Научи повече
+                      </a>
+                      <a
+                        className="btn btn-outline-light m-3"
+                        href="https://www.cmx.bg/store/checkout"
+                        role="button"
+                      >
+                        Купи
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 col-lg-4 mt-1-9">
+            <div className="team-style1 text-center">
+              <img src="320_39184.webp" className="border-radius-5" alt="..." />
+              <div className="team-info">
+                <h3 className="mb-1 h5 content-title">
+                  Моторна косачка 25-80 мм 46 см 65 л
+                </h3>
+                <div>
+                  <p className="text-decoration-line-through text-primary fs-6 fw-normal">
+                    599.00 лв.
+                  </p>
+
+                  <span className="font-weight-600 text-warning fs-3 fw-bolder">
+                    559.00 лв.
+                  </span>
+                </div>
+              </div>
+              <div className="team-overlay">
+                <div className="d-table h-100 w-100">
+                  <div className="d-table-cell align-middle">
+                    <h3>
+                      <a href="#" className="text-white h5">
+                        Отрезна маса за плочки CIMEX TC230-1200N/ 1.1 kW
+                      </a>
+                    </h3>
+                    <p className="text-white mb-0 fst-italic fw-light fs-6">
+                      Моторната косачка е оборудвана е с мощен 4-тактов двигател
+                      и превключваемо задвижване на задните колела. Сгъваемото
+                      кормило спестява място при съхранение. ...
+                    </p>
+                    <div className="d-flex justify-content-around">
+                      <a
+                        className="btn btn-outline-light m-3"
+                        href="https://www.cmx.bg/product39184/benzinova-samohodna-kosachka-einhell-gc-pm-465-s-272-ks"
+                        role="button"
+                      >
+                        Научи повече
+                      </a>
+                      <a
+                        className="btn btn-outline-light m-3"
+                        href="https://www.cmx.bg/store/checkout"
+                        role="button"
+                      >
+                        Купи
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> */
+}
 
 {
   /* <link
