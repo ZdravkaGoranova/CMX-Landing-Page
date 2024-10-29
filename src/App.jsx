@@ -7,10 +7,13 @@ import Main from './Components/Main.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
 
   const toggleTheme = () => {
-    setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
+    localStorage.setItem('theme', newTheme);
+    console.log('Switching theme to:', newTheme);
   };
   return (
     <>
