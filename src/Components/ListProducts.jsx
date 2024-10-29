@@ -15,9 +15,11 @@ const ListProducts = ({ products }) => {
         referrerPolicy="no-referrer"
       />
       <div className="container-list-product">
-        <div className="">
-          <span className="sub-title">Instructions</span>
-          <h2 className="h1 mb-0">Hover the cards</h2>
+        <div className="d-flex justify-content-center">
+          <h2 className="mb-0">НАМАЛЕНИ ПРОДУКТИ </h2>
+          {/* <a className="navbar-brand me-3 py-2" href="#">
+            <img src="/header-banner.png" alt="Logo" width="830" height="80" />
+          </a> */}
         </div>
         <Product products={products} />
       </div>

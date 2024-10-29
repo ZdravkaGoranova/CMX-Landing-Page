@@ -2,6 +2,9 @@
   position: relative;
   display: block;
   overflow: hidden;
+  flex: 1 1 auto; 
+  margin: 15px;
+ 
 }
 
 .team-style1 .team-info {
@@ -55,6 +58,11 @@
 .container-list-product {
   margin-top: 130px;
   margin-bottom: 60px;
+  display: flex;
+   justify-content: center;
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+  gap: 20px; 
 }
 .price-container {
   display: flex;
@@ -71,4 +79,45 @@
 
 a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 1068px) {
+  .container-list-product {
+    margin-top: 180px; 
+    margin-bottom: 30px; 
+  }
+
+  .team-style1 {
+    max-width: 100%; 
+  }
+}
+@media screen and (max-width: 989px) {
+  .container-list-product {
+    margin-top: 600px; 
+    margin-bottom: 30px; 
+  }
+
+  .team-style1 {
+    max-width: 100%; 
+  }
+}
+@media screen and (max-width: 768px) {
+  .container-list-product {
+     margin-top: 1800px; 
+    margin-bottom: 30px; 
+  }
+
+  .team-style1 {
+    max-width: 100%; 
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .team-style1 {
+    margin: 10px; 
+  }
+   .container-list-product {
+     margin-top: 2200px; 
+    margin-bottom: 30px; 
+  }
 }
