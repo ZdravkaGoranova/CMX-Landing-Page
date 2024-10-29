@@ -12,6 +12,7 @@ const Main = () => {
 
   const fetchProducts = async () => {
     try {
+ 
       const data = JSON.parse(localStorage.getItem('CMX-Products'));
       if (data) {
         setProducts(data);
@@ -39,7 +40,7 @@ const Main = () => {
           linkBuy: 'https://www.cmx.bg/store/checkout',
           linkLearnMore:
             'https://www.cmx.bg/product44076/mashina-za-bezvazdushno-boyadisvane-stahl-easy-paint-s1-15-lmin',
-          image: '320_44076.webp',
+          image: '/5.png',
         },
         {
           id: uuid(),
@@ -52,7 +53,7 @@ const Main = () => {
           linkBuy: 'https://www.cmx.bg/store/checkout',
           linkLearnMore:
             'https://www.cmx.bg/product45629/otrezna-masa-za-plochki-cimex-tc350-1200n-11-kw',
-          image: '/320_41.webp',
+          image: '/3.png',
         },
         {
           id: uuid(),
@@ -65,7 +66,7 @@ const Main = () => {
           linkBuy: 'https://www.cmx.bg/store/checkout',
           linkLearnMore:
             'https://www.cmx.bg/product39184/benzinova-samohodna-kosachka-einhell-gc-pm-465-s-272-ks',
-          image: '320_39184.webp',
+          image: '/4.png',
         },
         {
           id: uuid(),
@@ -78,7 +79,7 @@ const Main = () => {
           linkBuy: 'https://www.cmx.bg/store/checkout',
           linkLearnMore:
             'https://www.cmx.bg/product44076/mashina-za-bezvazdushno-boyadisvane-stahl-easy-paint-s1-15-lmin',
-          image: '320_44076.webp',
+          image: '/5.png',
         },
         {
           id: uuid(),
@@ -91,7 +92,7 @@ const Main = () => {
           linkBuy: 'https://www.cmx.bg/store/checkout',
           linkLearnMore:
             'https://www.cmx.bg/product45629/otrezna-masa-za-plochki-cimex-tc350-1200n-11-kw',
-          image: '/320_41.webp',
+          image: '/3.png',
         },
         {
           id: uuid(),
@@ -104,7 +105,7 @@ const Main = () => {
           linkBuy: 'https://www.cmx.bg/store/checkout',
           linkLearnMore:
             'https://www.cmx.bg/product39184/benzinova-samohodna-kosachka-einhell-gc-pm-465-s-272-ks',
-          image: '320_39184.webp',
+          image: '/4.png',
         },
       ];
 
@@ -133,102 +134,3 @@ const Main = () => {
 };
 
 export default Main;
-
-//  <section id="pricing" className="pricing-content section-padding">
-//    <div className="container">
-//      <div className="section-title text-center">
-//        <h1>Pricing Plan</h1>
-//        <p>
-//          It is a long established fact that a reader will be distracted by the
-//          readable content of a page when looking at its layout.
-//        </p>
-//      </div>
-//      <div className="row text-center">
-//        <div
-//          className="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp"
-//          data-wow-duration="1s"
-//          data-wow-delay="0.1s"
-//          data-wow-offset="0"
-//        >
-//          <div className="single-pricing">
-//            <div className="price-head">
-//              <h2>Starter</h2>
-//              <span></span>
-//              <span></span>
-//              <span></span>
-//              <span></span>
-//              <span></span>
-//              <span></span>
-//            </div>
-//            <h1 className="price">$29</h1>
-//            <h5>Monthly</h5>
-//            <ul>
-//              <li>5 website</li>
-//              <li>50GB Disk Space</li>
-//              <li>50 Email Accounts</li>
-//            </ul>
-//            <a href="#">Get start</a>
-//          </div>
-//        </div>
-//        <div
-//          className="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp"
-//          data-wow-duration="1s"
-//          data-wow-delay="0.2s"
-//          data-wow-offset="0"
-//        >
-//          <div className="single-pricing">
-//            <div className="price-head">
-//              <h2>popular</h2>
-//              <span></span>
-//              <span></span>
-//              <span></span>
-//              <span></span>
-//              <span></span>
-//              <span></span>
-//            </div>
-//            <h1 className="price">$49</h1>
-//            <h5>Monthly</h5>
-//            <ul>
-//              <li>10 website</li>
-//              <li>50GB Disk Space</li>
-//              <li>50 Email Accounts</li>
-//              <li>50GB Monthly Bandwidth</li>
-//              <li>10 Subdomains</li>
-//            </ul>
-//            <a href="#">Get start</a>
-//          </div>
-//        </div>
-//        <div
-//          className="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp"
-//          data-wow-duration="1s"
-//          data-wow-delay="0.3s"
-//          data-wow-offset="0"
-//        >
-//          <div className="single-pricing single-pricing-white">
-//            <div className="price-head">
-//              <h2>Advance</h2>
-//              <span></span>
-//              <span></span>
-//              <span></span>
-//              <span></span>
-//              <span></span>
-//              <span></span>
-//            </div>
-//            <span className="price-label">Best</span>
-//            <h1 className="price">$69</h1>
-//            <h5>Monthly</h5>
-//            <ul>
-//              <li>15 website</li>
-//              <li>50GB Disk Space</li>
-//              <li>50 Email Accounts</li>
-//              <li>50GB Monthly Bandwidth</li>
-//              <li>10 Subdomains</li>
-//              <li>15 Domains</li>
-//              <li>Unlimited Support</li>
-//            </ul>
-//            <a href="#">Get start</a>
-//          </div>
-//        </div>
-//      </div>
-//    </div>
-//  </section>;
