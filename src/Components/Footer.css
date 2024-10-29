@@ -1,14 +1,14 @@
 body {
   margin-top: 20px;
 }
-.footer_area {
+.footer-area {
   position: relative;
   z-index: 1;
   overflow: hidden;
   /* webkit-box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175); */
   /* box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175); */
   padding: 10px 60px;
-  width: 120%;
+  width: 100vw;
 }
 .footer_area .row {
   margin-left: -25px;
@@ -160,6 +160,8 @@ body {
 .footer_visible {
   display: block; 
 }
+
+
 @-webkit-keyframes bi-cycle {
   0% {
     left: 0;
