@@ -2,9 +2,8 @@
   position: relative;
   display: block;
   overflow: hidden;
-  flex: 1 1 auto; 
+  flex: 1 1 auto;
   margin: 15px;
- 
 }
 
 .team-style1 .team-info {
@@ -14,13 +13,13 @@
   border-radius: 5px;
   transform: translate3d(0px, 0%, 0px);
   transition: all 800ms ease 0.35s;
-     padding: 15px 20px;
+  padding: 15px 20px;
   box-shadow: 0px 5px 24.25px 0.75px rgba(0, 0, 0, 0.1);
   background: #ffffff;
   position: absolute;
 }
 .no-margin-bottom {
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 .team-style1 .team-overlay {
   left: 15px;
@@ -40,7 +39,7 @@
   transition-delay: 0.1s;
 
   background: var(--blue-color);
-  background: rgba(255,203,8, 0.9);
+  background: rgba(255, 203, 8, 0.9);
   border-radius: 5px;
 }
 
@@ -59,10 +58,10 @@
   margin-top: 130px;
   margin-bottom: 60px;
   display: flex;
-   justify-content: center;
-  align-items: flex-start; 
-  flex-wrap: wrap; 
-  gap: 20px; 
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .price-container {
   display: flex;
@@ -83,41 +82,41 @@ a {
 
 @media screen and (max-width: 1068px) {
   .container-list-product {
-    margin-top: 180px; 
-    margin-bottom: 30px; 
+    margin-top: 180px;
+    margin-bottom: 30px;
   }
 
   .team-style1 {
-    max-width: 100%; 
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 989px) {
   .container-list-product {
-    margin-top: 600px; 
-    margin-bottom: 30px; 
+    margin-top: 600px;
+    margin-bottom: 30px;
   }
 
   .team-style1 {
-    max-width: 100%; 
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
   .container-list-product {
-     margin-top: 1800px; 
-    margin-bottom: 30px; 
+    margin-top: 2000px;
+    margin-bottom: 30px;
   }
 
   .team-style1 {
-    max-width: 100%; 
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 576px) {
   .team-style1 {
-    margin: 10px; 
+    margin: 10px;
   }
-   .container-list-product {
-     margin-top: 2200px; 
-    margin-bottom: 30px; 
+  .container-list-product {
+    margin-top: 2200px;
+    margin-bottom: 30px;
   }
 }
