@@ -13,7 +13,7 @@ const Footer = ({ theme }) => {
         className={`footer-area navbar footer_visible bg-body-tertiary`}
         data-bs-theme={theme === 'dark' ? 'dark' : undefined}
       >
-        <div className="container">
+        <div className="footer-container">
           <div className="row">
             <div className="col-12 col-sm-6 col-lg-4">
               <div className="single-footer-widget section_padding_0_130">
@@ -44,13 +44,13 @@ const Footer = ({ theme }) => {
 
             <div className="col-12 col-sm-6 col-lg">
               <div className="single-footer-widget section_padding_0_130">
-                <h5
+                <h6
                   className={`widget-title ${
                     theme === 'dark' ? 'text-white' : 'text-black'
                   }`}
                 >
                   About
-                </h5>
+                </h6>
 
                 <div className="footer_menu">
                   <ul>
@@ -69,13 +69,13 @@ const Footer = ({ theme }) => {
 
             <div className="col-12 col-sm-6 col-lg">
               <div className="single-footer-widget section_padding_0_130">
-                <h5
+                <h6
                   className={`widget-title ${
                     theme === 'dark' ? 'text-white' : 'text-black'
                   }`}
                 >
                   Support
-                </h5>
+                </h6>
 
                 <div className="footer_menu">
                   <ul>
@@ -96,13 +96,13 @@ const Footer = ({ theme }) => {
 
             <div className="col-12 col-sm-6 col-lg">
               <div className="single-footer-widget section_padding_0_130">
-                <h5
+                <h6
                   className={`widget-title ${
                     theme === 'dark' ? 'text-white' : 'text-black'
                   }`}
                 >
                   Delivery
-                </h5>
+                </h6>
 
                 <div className="footer_menu">
                   <ul>
@@ -120,7 +120,7 @@ const Footer = ({ theme }) => {
             </div>
 
             <div
-              className={`footer-bottom small py-3 border-top ${
+              className={`footer-bottom small  border-top ${
                 theme === 'dark'
                   ? 'border-white border-opacity-10'
                   : 'border-black border-opacity-10'
