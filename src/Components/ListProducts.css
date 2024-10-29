@@ -262,7 +262,9 @@ background:#eee;
     right: -40px;
     z-index: 0
 }
-
+.container-list-product {
+    margin-top: 130px;
+}
 @media screen and (max-width: 991px) {
     .team-style1 .team-info {
         padding:20px

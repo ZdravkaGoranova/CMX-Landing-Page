@@ -9,8 +9,8 @@ const ListProducts = () => {
         crossOrigin="anonymous"
         referrerPolicy="no-referrer"
       />
-      <div className="container">
-        <div className="section-heading mb-4">
+      <div className="container-list-product">
+        <div className="">
           <span className="sub-title">Intructions</span>
           <h2 className="h1 mb-0">Hover the cards</h2>
         </div>
