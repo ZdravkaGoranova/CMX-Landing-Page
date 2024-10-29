@@ -8,3 +8,42 @@
 .offcanvas-body .nav-item {
   width: 120%;
 }
+
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+
+.offcanvas-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-brand {
+  
+  }
+  .offcanvas-body {
+    padding: 1rem;
+  }
+  .btn-outline-warning {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+.logo {
+    width: 100%; 
+    max-width: 150px; 
+    height: auto; 
+}
+
+
+@media (max-width: 768px) {
+    .logo {
+        max-width: 120px; 
+    }
+}

@@ -8,6 +8,8 @@ const Product = ({ products }) => {
           <div key={product.id || index} className="col-md-6 col-lg-4 mt-1-9">
             <div className="team-style1 text-center">
               <img
+                width="320"
+                height="320"
                 src={product.image}
                 className="border-radius-5"
                 alt={product.title}
