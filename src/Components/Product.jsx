@@ -14,11 +14,11 @@ const Product = ({ products }) => {
               />
               <div className="team-info">
                 <h3 className="mb-1 h5 content-title">{product.title}</h3>
-                <div>
-                  <p className="text-decoration-line-through text-primary fs-6 fw-normal">
+                <div className="price-container">
+                  <p className="text-decoration-line-through text-primary fs-6 fw-normal no-margin-bottom">
                     {product.oldPrice} лв.
                   </p>
-                  <span className="font-weight-600 text-warning fs-3 fw-bolder">
+                  <span className="font-weight-500 text-warning fs-3 fw-bolder">
                     {product.newPrice} лв.
                   </span>
                 </div>
@@ -27,23 +27,23 @@ const Product = ({ products }) => {
                 <div className="d-table h-100 w-100">
                   <div className="d-table-cell align-middle">
                     <h3>
-                      <a href={product.linkLearnMore} className="text-white h5">
+                      <a href={product.linkLearnMore} className="text-black h5">
                         {product.title}
                       </a>
                     </h3>
-                    <p className="text-white mb-0 fst-italic fw-light fs-6">
+                    <p className="text-black mb-0 fst-italic fw-normal fs-6">
                       {product.content}
                     </p>
                     <div className="d-flex justify-content-around">
                       <a
-                        className="btn btn-outline-light m-3"
+                        className="btn btn-light m-3"
                         href={product.linkLearnMore}
                         role="button"
                       >
                         Научи повече
                       </a>
                       <a
-                        className="btn btn-outline-light m-3"
+                        className="btn btn-dark m-3"
                         href={product.linkBuy}
                         role="button"
                       >
