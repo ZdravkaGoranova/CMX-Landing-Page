@@ -7,7 +7,7 @@ import Main from './Components/Main.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
