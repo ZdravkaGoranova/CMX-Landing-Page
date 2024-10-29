@@ -10,7 +10,7 @@ const Footer = ({ theme }) => {
       />
 
       <footer
-        className={`footer_area navbar footer_visible bg-body-tertiary`}
+        className={`footer-area navbar footer_visible bg-body-tertiary`}
         data-bs-theme={theme === 'dark' ? 'dark' : undefined}
       >
         <div className="container">

@@ -9,6 +9,9 @@ const Header = ({ theme, toggleTheme }) => {
         className={`navbar bg-body-tertiary fixed-top`}
         data-bs-theme={theme === 'dark' ? 'dark' : undefined}
       >
+
+
+        
         <div className="container-fluid d-flex justify-content-start align-items-center">
           <a className="navbar-brand me-3 py-2" href="#">
             <img src="/new_logo.png" alt="Logo" width="230" height="50" />
