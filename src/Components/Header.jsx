@@ -49,7 +49,7 @@ const Header = ({ theme, toggleTheme }) => {
           </a> */}
 
           <div
-            className="offcanvas offcanvas-end"
+            className="offcanvas offcanvas-start"
             tabIndex="-1"
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
@@ -64,9 +64,7 @@ const Header = ({ theme, toggleTheme }) => {
                 className="btn-close"
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
-              >
-               
-              </button>
+              ></button>
             </div>
             <div className="offcanvas-body ">
               <div className="offcanvas-header">
