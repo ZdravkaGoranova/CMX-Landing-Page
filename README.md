@@ -27,15 +27,12 @@
 
  ## Architecture - the project is structured
 
- - `public` folder contains global asssets for the app(european.jpg, `players.csv`,`matches.csv`,`records.csv`,`teams.csv`  ).
+ - `public` folder contains global asssets for the app.
  - `src` folder contains the App.jsx, main.jsx, index.css, App.css  and folders for the components, utils and assets.
    - `components` folder - properly named folder for each component that includes the component itself, the css  for the component).
      - `Footer` folder - properly named folder for each component that includes the component itself, the css  for the component).
-     - `GroupList` folder - properly named folder for each component that includes the component itself, the css  for the component).
+     - `Main` folder - properly named folder for each component that includes the component itself, the css  for the component).
      - `Header` folder - properly named folder for each component that includes the component itself, the css  for the component).
-     - `Home` folder - properly named folder for each component that includes the component itself, the css  for the component).
-     - `Product` folder - properly named folder for each component that includes the component itself, the css  for the component).
-     - `ListProducts` folder - properly named folder for each component that includes the component itself, the css  for the component).
  - `App.jsx` 
  - `main.jsx`
  - `index.css`
